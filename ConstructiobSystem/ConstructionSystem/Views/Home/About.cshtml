@@ -1,0 +1,291 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    @*/*********************bootstrap css*********************************/*@
+
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    @*/*********************bootstrap JS*********************************/
+
+        <script src="~/bootstrap/js/bootstrap.min.js"></script>*@
+
+    @*/*********************Fontawesome Css*********************************/*@
+    <link href="~/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" />
+
+    @*/*********************Fontawesome JS*********************************/*@
+    <script src="~/fontawesome-free-5.11.2-web/js/all.min.js"></script>
+
+    @*/*********************css*********************************/*@
+
+    <link href="~/Project Css/General.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="bootstrap-4.1.3/dist/css/bootstrap.min.css">
+    <title>who We Are</title>
+
+</head>
+<body>
+    @section UserNav{
+        @{ Html.RenderPartial("_UserNav");}
+    }
+    <main>
+
+        <section class="container-fluid">
+            <div class="card bg-dark text-white">
+                <img height="350" src="~/images/banner-construction.jpg" class="card-img" />
+
+                <div class="card-img-overlay">
+                    <h5 class="card-title textpic">Who We Are</h5>
+                    <p class="card-text textpic">You will be very happy with us we promise ... </p>
+
+                </div>
+            </div>
+        </section>
+        <br>
+        <!-------------------------------------->
+        <section class="AboutSection">
+            <div class="container-fluid">
+                <div class="sectiontitle text-center">
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <div class="aboutImage">
+                            <div>
+                                <img class="image firstimage" src="~/images/1816.jpg" width="600" height="450" style="margin-left:150px;" />
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="aboutinfo">
+                            <h3 class="vision firstheading">
+                                Vision & Values
+                            </h3>
+                            <p class="pragraph firstpragragh">
+                                We strive to incubate happiness by creating great moments for everyone, everyday.
+                                <br />
+                                <br />
+                                This was the vision of our founder, AFRINA, which is as relevant today as it was over 25 years ago.
+
+                                <br />
+                                <br />
+                                They are passionate, talented and driven – characteristic of the AFIIRNA culture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------->
+        <section class="AboutSection">
+            <div class="container">
+                <div class="sectiontitle text-center">
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="aboutinfo">
+                            <h3 class="vision">
+                                Our Journey
+                            </h3>
+                            <p class="pragraph">
+                                AFIRNA has brought fun and happiness to the lives of people from around the world.
+                                <br />
+                                <br />
+                                Find out more about our journey to becoming the region’s leading integrated lifestyle provider.
+
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <div class="aboutImage">
+                            <div>
+
+                                <img src="~/images/Who_We_Are_The_Journey_So_Far.jpg" class="image" width="600" height="450" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="AboutSection">
+            <div class="container">
+                <div class="sectiontitle text-center">
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <div class="aboutImage">
+                            <div>
+
+
+                                <img src="~/images/author-1.jpg" class="image" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div class="aboutinfo">
+                            <h3 class="vision">
+                                Executive Leadership
+                            </h3>
+                            <p class="pragraph">
+                                Our Executive Leaders underpin our ability to consistently deliver innovative and strategic thinking, and create ‘great moments for everyone, everyday.
+
+                                <br />
+                                <br />
+                                They are passionate, talented and driven – characteristic of the AFIIRNA culture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-----------------testmonials------------------------>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <h2> <b>Testimonials</b></h2>
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+
+                            </ol>
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="testimonial">
+                                                <p>AFRINA is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Greiner again in the near future!</p>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Anna Deynah</b></div>
+                                                        <div class="details">Media Analyst</div>
+                                                        <div class="star-rating">
+                                                            <ul class="list-inline"></ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="testimonial">
+                                                <p>AFRINA has exceeded our expectations, and we consider them one of our trusted partners in market.  Novel Coworking could not have been as successful in the region had it not been for their outstanding performance with the build and with attending to the needs our staff.</p>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Michael john</b></div>
+                                                        <div class="details">Seo Analyst</div>
+                                                        <div class="star-rating">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="testimonial">
+                                                <p>AFRINA Construction did a fantastic job managing our transition into the new office. The routines we kept to ensure our project remained on track and on time.</p>
+                                                <br />
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Michael Holz</b></div>
+                                                        <div class="details">Web Developer / DevCorp</div>
+                                                        <div class="star-rating">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="testimonial">
+                                                <p>Part of the challenge of going into a new market is committing to build a relationship with a General Contractor.  It's a leap of faith to trust them with building your vision on budget, on schedule, and with attention to quality.</p>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left d-flex mr-3">
+                                                    <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg">
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="overview">
+                                                        <div class="name"><b>Maria Kate</b></div>
+                                                        <div class="details">Web Developer</div>
+                                                        <div class="star-rating">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    @*/***********************js*********************/*@
+    <script src="~/Project-JS/about.js"></script>
+
+
+    @*/***********************Jquery*********************/*@
+
+    <script src="~/jquery-3.4.1.js"></script>
+    @*/***********************Bootstrap JS*********************/*@
+
+
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+<script>
+    $(".image").mouseover(function () {
+        $(this).css("opacity", "0.5")
+    })
+    $(".image").mouseleave(function () {
+        $(this).css("opacity", "1")
+    })
+</script>
